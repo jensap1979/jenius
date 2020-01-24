@@ -7,8 +7,8 @@ namespace exercise_07
         public static void Main(string[] args)
         {
             Console.WriteLine("Give input!");
-            // Write your code here:
-            
-        }
+            string message = Console.ReadLine();
+        Console.WriteLine("\nAre you printing the string?" + "\nAre you printing the string?" + "\nAre you printing the string?");
+}
     }
 }
