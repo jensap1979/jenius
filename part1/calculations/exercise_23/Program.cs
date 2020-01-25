@@ -17,7 +17,7 @@ namespace exercise_23
       Console.WriteLine(intValueFirst + " + " + intValueSecond + " = " + (intValueFirst + intValueSecond));
       Console.WriteLine(intValueFirst + " - " + intValueSecond + " = " + (intValueFirst - intValueSecond));
       Console.WriteLine(intValueFirst + " * " + intValueSecond + " = " + (intValueFirst * intValueSecond));
-      Console.WriteLine(intValueFirst + " / " + intValueSecond + " = " + ((double)intValueFirst / intValueSecond));
+      Console.WriteLine(intValueFirst + " / " + intValueSecond + " = " + ((double)intValueFirst / intValueSecond))
 
     }
   }
