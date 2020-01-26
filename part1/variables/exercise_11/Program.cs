@@ -10,7 +10,7 @@ namespace exercise_11
             double hoursToLunch = 3.5;
             string statement = "It sure is!";
 
-            // NOT TOUCH THESE!
+            // NO TOUCH THESE!
             Console.WriteLine("Days to summer:");
             Console.WriteLine(dayCount);
             Console.WriteLine("Hours to lunch:");
