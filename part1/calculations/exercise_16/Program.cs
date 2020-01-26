@@ -7,7 +7,7 @@ namespace exercise_16
     public static void Main(string[] args)
     {
 
-      // Write your code here:
+      // Write your code
       int secondsDay = 60 * 60 * 24;
       Console.WriteLine("How many days?");
       string userInput = Console.ReadLine();
