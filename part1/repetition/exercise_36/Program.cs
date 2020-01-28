@@ -6,7 +6,7 @@ namespace exercise_36
   {
     public static void Main(string[] args)
     {
-      while (true) //wierd
+      while (true)
       
       { 
        Console.WriteLine("Give a number:");
@@ -18,17 +18,16 @@ namespace exercise_36
         break;
         }
         else if (userNmb > 0)
-      
         {
         Console.WriteLine(userNmb * userNmb);
         }
-      
-      
-     
-        else (userNmb < 0)
+        else if (userNmb < 0)
 
         {
         Console.WriteLine("That is negative");
         }
-      
-       }
+      }
+       
+    } 
+  }
+} 
