@@ -6,8 +6,29 @@ namespace exercise_36
   {
     public static void Main(string[] args)
     {
-      // Write your code here:
+      while (true)
+      
+      { 
+       Console.WriteLine("Give a number:");
+       int userNmb = Convert.ToInt32(Console.ReadLine());
+      
 
-    }
-  }
-}
+        if (userNmb == 0)
+        {
+        break;
+        }
+        else if (userNmb > 0)
+      
+        {
+        Console.WriteLine(userNmb * userNmb);
+        }
+      
+      
+     
+        else (userNmb < 0)
+
+        {
+        Console.WriteLine("That is negative");
+        }
+      
+       }
