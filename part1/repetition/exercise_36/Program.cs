@@ -6,7 +6,7 @@ namespace exercise_36
   {
     public static void Main(string[] args)
     {
-      while (true)
+      while (true) //code
       
       { 
        Console.WriteLine("Give a number:");
