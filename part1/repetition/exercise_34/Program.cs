@@ -6,7 +6,7 @@ namespace exercise_34
   {
     public static void Main(string[] args)
     {
-      // Write your code here:
+      // Write code here:
     while (true) 
      {
       Console.WriteLine("Do you want to continue?");
