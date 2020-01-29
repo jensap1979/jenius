@@ -6,7 +6,7 @@ namespace exercise_25
   {
     public static void Main(string[] args)
     {
-      // Write your code here:
+      // Write your code:
        Console.WriteLine("Give a number:");
       string userInput = Console.ReadLine();
       int intYear = Convert.ToInt32(userInput);
