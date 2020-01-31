@@ -8,6 +8,19 @@ namespace exercise_45
     {
 
       // Write your code here:
+      int userNmb = Convert.ToInt32(Console.ReadLine());
+      int numero = 0;
+      
+
+      while (numero <= userNmb)
+
+      {
+        Console.WriteLine(numero);
+        numero++;
+      }
+
+      
+      
 
     }
   }
