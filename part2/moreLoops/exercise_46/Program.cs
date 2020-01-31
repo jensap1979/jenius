@@ -8,7 +8,15 @@ namespace exercise_46
     {
 
       // Write your code here:
+      
+      int nmbr = Convert.ToInt32(Console.ReadLine());
 
+      while (nmbr <=100)
+      {
+        Console.WriteLine( nmbr );
+        nmbr++;
+        
+      }
     }
   }
 }
