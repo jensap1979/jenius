@@ -6,7 +6,7 @@ namespace exercise_53
   {
     public static void Main(String[] args)
     {
-      // Call your method here:
+      // Call method here:
 
 
     }
