@@ -7,7 +7,7 @@ namespace exercise_46
     public static void Main(string[] args)
     {
 
-      // Write your code here:
+      // Write your code:
       
       int nmbr = Convert.ToInt32(Console.ReadLine());
 
