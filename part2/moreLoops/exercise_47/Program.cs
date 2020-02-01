@@ -8,25 +8,19 @@ namespace exercise_47
     {
 
       // Write your code here:
-      int numero = 0;
-      
-      
-      while (true)
-      if (0 <= numero)
-      {
-        Console.WriteLine(numero + "Where to? ");
-        numero--;
-      }
-      else (0 => numero) 
-  
-      {
-         Console.WriteLine(numero + "Where to? ");
-         numero++;
-      }
-      else (0)
+       Console.WriteLine("Where to?");
+      int num1 = Convert.ToInt32(Console.ReadLine());
 
+      Console.WriteLine("Where from?");
+      int num2 = Convert.ToInt32(Console.ReadLine());
+
+      int value = num2;
+
+      while (value <= num2)
       {
-          break;
+        Console.WriteLine(value);
+        value++;
+        
       }
       
     }
