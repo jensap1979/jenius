@@ -8,7 +8,7 @@ namespace exercise_55
     { {
       NumberUno();
     }
-    // Write your method here:
+    // Write your method:
     public static int NumberUno()
     {
       return 1;
