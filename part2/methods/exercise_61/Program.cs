@@ -6,7 +6,7 @@ namespace exercise_61
   {
     public static void Main(String[] args)
     {
-     // PrintStars(2);
+     // PrintStar(2);
      // PrintSpaces(2);
      // PrintRightTriangle(4);
      ChristmasTree(10);
