@@ -8,7 +8,15 @@ namespace exercise_62
   {
     public static void Main(string[] args)
     {
-      List<string> list = new List<string>();
+      List <string> wordList = new List<string>();
+
+    
+            
+            wordList.Add("Tom");
+            wordList.Add("Emma");
+            wordList.Add("Alex");
+            wordList.Add("Mary");
+
       while (true)
       {
         string input = Console.ReadLine();
@@ -16,12 +24,16 @@ namespace exercise_62
         {
           break;
         }
-
-        list.Add(input);
+        
+        
+        wordList.Add(input);
+        
       }
 
       // BEGIN SOLUTION
-      Console.WriteLine(list[0]);
+      Console.WriteLine (wordList[2]);
+ 
+
       // END SOLUTION
     }
 

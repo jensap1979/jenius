@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System.Collections.Generic;
 
 namespace sandbox
 {
@@ -6,7 +7,18 @@ namespace sandbox
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
+            List<string> wordList = new List<string>();
+
+    
+            
+            wordList.Add("Tom");
+            wordList.Add("Emma");
+            wordList.Add("Alex");
+            wordList.Add("Mary");
+        
+        
+        
         }
     }
 }
