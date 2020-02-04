@@ -12,6 +12,7 @@ namespace exercise_63
       while (true)
       {
         int input = Convert.ToInt32(Console.ReadLine());
+        
         if (input == 0)
         {
           break;
@@ -19,7 +20,8 @@ namespace exercise_63
 
         list.Add(input);
       }
-      Console.WriteLine(list[0]);
+    
+      Console.WriteLine(list[1] + list[2]);
     }
 
   }
