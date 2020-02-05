@@ -7,7 +7,7 @@ namespace exercise_64
   {
     public static void Main(string[] args)
     {
-      // Modify this program to cause an ArgumentOutOfRangeException 
+      // Modify program to cause an ArgumentOutOfRangeException 
 
       // Thanks to Sairam Gudiseva for the essay!
       List<string> lines = new List<string>();
@@ -20,7 +20,7 @@ namespace exercise_64
 
       foreach (string line in lines)
       {
-        Console.WriteLine(line);
+        Console.WriteLine(line[5]);
       }
 
     }
