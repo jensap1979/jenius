@@ -10,13 +10,6 @@ namespace exercise_62
     {
       List <string> wordList = new List<string>();
 
-    
-            
-            wordList.Add("Tom");
-            wordList.Add("Emma");
-            wordList.Add("Alex");
-            wordList.Add("Mary");
-
       while (true)
       {
         string input = Console.ReadLine();
