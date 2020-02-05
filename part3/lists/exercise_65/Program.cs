@@ -14,10 +14,12 @@ namespace exercise_65
         if (input == "")
         {
           break;
+        
         }
         list.Add(input);
-      }
 
+        
+      }
+     
     }
   }
-}
