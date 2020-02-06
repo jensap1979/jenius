@@ -7,7 +7,12 @@ namespace exercise_86
   {
     public static void Main(string[] args)
     {
-
+     String asked = Console.ReadLine();
+     if (asked == "")
+     {
+       break;
+     }   
+     444444444444
 
     }
   }
