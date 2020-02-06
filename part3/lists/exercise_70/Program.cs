@@ -15,7 +15,9 @@ namespace exercise_70
         {
           break;
         }
+
         list.Add(input);
+        Console.WriteLine("The greatest number:" + list);
       }
     
     }
