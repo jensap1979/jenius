@@ -6,15 +6,22 @@ namespace exercise_86
   class Program
   {
     public static void Main(string[] args)
-    {
-     String asked = Console.ReadLine();
-     if (asked == "")
+    string = namess
+    while (true)
+     {   
+     String namess = Console.ReadLine();
+     if (asked + "")
      {
        break;
-     }   
-     444444444444
-      /////////
-      
+     }  
+
+     string[] p = input.Split(","); 
+    
+
+     }
+     
+     Console.WriteLine();
+
     }
   }
 }
