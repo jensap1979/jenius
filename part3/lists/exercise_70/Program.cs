@@ -17,6 +17,7 @@ namespace exercise_70
         }
         list.Add(input);
       }
+    
     }
   }
 }
