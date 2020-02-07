@@ -9,7 +9,7 @@ namespace exercise_64
     {
       // Modify program to cause an ArgumentOutOfRangeException 
 
-      // Thanks to Sairam Gudiseva for the essay!
+      // Thanks to Sairam Gudiseva for the essay!//
       List<string> lines = new List<string>();
       lines.Add("Never has a man influenced physics so profoundly as Niels Bohr in the early 1900's");
       lines.Add("Going back to this time period, little was known about atomic structure; Bohr set out");
