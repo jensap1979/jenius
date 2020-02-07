@@ -20,8 +20,9 @@ namespace exercise_64
 
       foreach (string line in lines)
       {
-        Console.WriteLine(lines[6]);
+        Console.WriteLine(lines);
       }
+      Console.WriteLine(lines[lines.Count]);
 
     }
 
