@@ -17,7 +17,12 @@ namespace exercise_73
         }
         list.Add(input);
       }
-
+      int sum = 0;
+       for (int index = 0; index < list.Count; index++)
+       {
+         sum += list[index];
+       }
+      Console.WriteLine("Sum: " + sum);
     }
   }
 }
