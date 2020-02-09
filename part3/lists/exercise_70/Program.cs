@@ -26,7 +26,7 @@ namespace exercise_70
           break;
         }
         list.Add(input);
-        ///extra just for fun
+        ///extra just for fun!
       
       
       
