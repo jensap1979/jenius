@@ -14,6 +14,7 @@ namespace exercise_82
     }
 
     public static void PrintArrayInStars(int[] array)
+    int * = 
     {
 
     }

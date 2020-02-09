@@ -8,7 +8,7 @@ namespace exercise_80
     public static void Main(string[] args)
     {
       string[] allIn = new string[5];
-      int[] numbers = { 5, 1, 3, 4, 2 };
+      int[] numbers = { 5, 1, 3, 4, 1 };
       int sum = SumOfNumbersInArray(numbers);
       Console.WriteLine(sum);
 
