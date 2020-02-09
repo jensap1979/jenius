@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace exercise_65
+namespace exercise_74
 {
   class Program
   {
@@ -14,15 +14,11 @@ namespace exercise_65
         if (input == "")
         {
           break;
-        
         }
         list.Add(input);
-
-        
       }
-  
-            Console.WriteLine("In total: " + list.Count);
-    }   
+      
+    }
   }
+}
 
-}  

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace exercise_68
+namespace exercise_71
 {
   class Program
   {
@@ -17,7 +17,7 @@ namespace exercise_68
         }
         list.Add(input);
       }
-    list.ForEach(Console.WriteLine);
+
     }
   }
 }

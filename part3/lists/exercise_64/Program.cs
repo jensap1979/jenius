@@ -7,9 +7,9 @@ namespace exercise_64
   {
     public static void Main(string[] args)
     {
-      // Modify this program to cause an ArgumentOutOfRangeException 
+      // Modify program to cause an ArgumentOutOfRangeException 
 
-      // Thanks to Sairam Gudiseva for the essay!
+      ///// Thanks to Sairam Gudiseva for the essay!
       List<string> lines = new List<string>();
       lines.Add("Never has a man influenced physics so profoundly as Niels Bohr in the early 1900's");
       lines.Add("Going back to this time period, little was known about atomic structure; Bohr set out");
@@ -20,10 +20,16 @@ namespace exercise_64
 
       foreach (string line in lines)
       {
+<<<<<<< HEAD
         Console.WriteLine(line[0] + line[1] + line[3]);
       }
     
      
+=======
+        Console.WriteLine(lines);
+      }
+      Console.WriteLine(lines[lines.Count]);
+>>>>>>> 3f0b0b4e0f63263900f488f3c145815ae9157ce8
 
     }
 
