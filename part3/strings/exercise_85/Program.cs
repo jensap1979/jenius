@@ -12,11 +12,11 @@ namespace exercise_85
       Console.WriteLine("Enter password:");
       string passWord = Console.ReadLine();
 
-      if (userName == "alex" && passWord == "sunshine")
+      if (userName == "emma" && passWord == "sunshine")
       {
         Console.WriteLine("You have successfully logged in!");
       }
-      else if (userName == "emma" && passWord == "haskell")
+      else if (userName == "alex" && passWord == "haskell")
       {
         Console.WriteLine("You have successfully logged in!");
       }

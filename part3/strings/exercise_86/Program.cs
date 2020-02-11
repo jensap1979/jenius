@@ -5,24 +5,25 @@ namespace exercise_86
 {
   class Program
   {
-    public static void Main(string[] args)
-    string = namess
-    while (true)
-     {   
-     String namess = Console.ReadLine();
-     if (asked + "")
+      public static void Main(string[] args)
      {
-       break;
-     }  
+      while (true)
+       {   
+         String input = Console.ReadLine();
+         if (input == "")
+         {
+         break;
+         }  
 
-     string[] p = input.Split(","); 
+         string[] pieces = input.Split(" "); 
     
+         for (int i = 0; i < pieces.Length; i++)
+          {
+            Console.WriteLine(pieces[i]);
+          }
+        }
+      }
 
-     }
-     
-     Console.WriteLine();
-
-    }
   }
 }
 
