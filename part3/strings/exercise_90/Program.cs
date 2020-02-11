@@ -6,6 +6,7 @@ namespace exercise_90
   class Program
   {
     public static void Main(string[] args)
+    { 
         int oldest = 0;
         while (true)
         
@@ -16,13 +17,15 @@ namespace exercise_90
           break;
           }
           string[] parts = asked.Split(",");
-          if (Convert.ToInt32(parts[1]) > oldest);  
+          if (oldest < Convert.ToInt32(parts[1]));  
         
           {
          Oldest = Convert.ToInt32(Parts[1]);
           }
 
+        }
         Console.WriteLine("Age of the oldest " + oldest );
+        
     }
     
   }
