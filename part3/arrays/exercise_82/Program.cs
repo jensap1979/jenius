@@ -8,13 +8,21 @@ namespace exercise_82
     public static void Main(string[] args)
     {
       // You can test your method here
-      int[] array = { 5, 1, 3, 4, 2 };
-      PrintArrayInStars(array);
+    int[] array = { 5, 7, 1, 3, 4, 2 };
+            PrintArrayInStars(array);
 
-    }
+        }
 
-    public static void PrintArrayInStars(int[] array)
-    {
+        public static void PrintArrayInStars(int[] array)
+        {
+            for (int i = 0; i < array.Length; i++)
+            {
+                for (int star = 0; star < array[i]; star++)
+                {
+                  Console.Write("*");
+                }
+                Console.Write("\n");
+            }
 
     }
   }

@@ -7,18 +7,26 @@ namespace exercise_80
   {
     public static void Main(string[] args)
     {
-      int[] numbers = { 5, 1, 3, 4, 2 };
+      string[] allIn = new string[5];
+      int[] numbers = { 5, 1, 3, 4, 1 };
       int sum = SumOfNumbersInArray(numbers);
       Console.WriteLine(sum);
 
     }
 
-    public static int SumOfNumbersInArray(int[] numbers) {
-
-      return 0;
-    }
-
+        public static int SumOfNumbersInArray(int[] numbers)
+        {
+            int sumOfArray = 0;
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                sumOfArray += numbers[i];
+            }
+            return sumOfArray;
+        }
+      
+    
   }
 }
+
 
 

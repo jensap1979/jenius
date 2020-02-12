@@ -7,6 +7,7 @@ namespace exercise_85
   {
     public static void Main(string[] args)
     {
+<<<<<<< HEAD
       string username1 = "Emma";
       string username2 = "Alex";
       string username = Console.ReadLine();
@@ -20,7 +21,25 @@ namespace exercise_85
       {Console.WriteLine("Enter password: ")};    
       
       
+=======
+      Console.WriteLine("Enter username:");
+      string userName = Console.ReadLine();
+      Console.WriteLine("Enter password:");
+      string passWord = Console.ReadLine();
+>>>>>>> 12f7d0dc74a364abb32957b339968b1706e10b4b
 
+      if (userName == "emma" && passWord == "sunshine")
+      {
+        Console.WriteLine("You have successfully logged in!");
+      }
+      else if (userName == "alex" && passWord == "haskell")
+      {
+        Console.WriteLine("You have successfully logged in!");
+      }
+      else
+      {
+        Console.WriteLine("Incorrect username or password!");
+      }
 
     }
   }

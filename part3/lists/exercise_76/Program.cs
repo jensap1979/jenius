@@ -17,17 +17,18 @@ namespace exercise_76
       numbers.Add(5);
       numbers.Add(1);
       Console.WriteLine(Sum(numbers));
-    
-     public static int Sum(List<int> numbers)
-     int sum = 0;
-     for (int i 0; i < numbers.Count; i++)
-     {
-      sum = sum + numbers[i];
-     }  
-     return sum;
     }
+     public static int Sum(List<int> numbers)
+    {
+      int sum = 0;
+      for (int i = 0; i < numbers.Count; i++)
+      {
+      sum += numbers[i];
+      }  
+      return +sum 
+     
 
-
+    }
   }
 
 }
