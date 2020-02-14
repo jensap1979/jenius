@@ -18,7 +18,7 @@ namespace exercise_98
     }
      {public void PrintProduct()
 
-     Console.Writeline(name + price * quantity); 
+     Console.Writeline(name " :" + price "price" * quantity"pcs"); 
      }
      
 
