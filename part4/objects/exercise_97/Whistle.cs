@@ -1,6 +1,6 @@
 using System;
 
-namespace Exercise_97
+namespace exercise_97
 {
   public class Whistle
   {
