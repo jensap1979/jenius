@@ -14,14 +14,12 @@ namespace exercise_98
         this.name = name;
         this.price = price;
         this.quantity = quantity;
+
         
     }
-     {public void PrintProduct()
-
-     Console.Writeline(name " :" + price "price" * quantity"pcs"); 
-     }
-     
-
-
-  }
+    public void PrintProduct() 
+    {
+      Console.WriteLine(name + ": price " + price + ": " + quantity + " pcs");
+    }
+}
 }
