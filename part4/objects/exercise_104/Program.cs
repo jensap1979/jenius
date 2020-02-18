@@ -8,6 +8,7 @@ namespace exercise_104
   class Program
   {
     public static void Main(string[] args)
+    
     {
       Multiplier multiplyByThree = new Multiplier(3);
 
