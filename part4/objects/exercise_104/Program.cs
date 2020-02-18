@@ -1,6 +1,9 @@
 ﻿using System;
 
 namespace exercise_104
+using System;
+
+namespace exercise_104
 {
   class Program
   {
@@ -18,6 +21,7 @@ namespace exercise_104
     }
   }
 }
+
 
 
 
