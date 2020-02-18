@@ -3,25 +3,18 @@ using System;
 namespace sandbox
 {
   class Program
- {
- public static void Main(string[] args)
-  { 
-    string text = ("text.txt");
+ {static void Main(string[] args)
+        {
+            Console.WriteLine("Skriv in ett tal");
+            double tal1 = double.Parse(Console.ReadLine());
+            Console.WriteLine("Skriv in ett tal till");
+            double tal2 = double.Parse(Console.ReadLine());
 
-  // Display the file contents to the console. Variable text is a string.
-   Console.WriteLine("This was done with ReadAllText.");
-    Console.WriteLine(text);
-
-  //Print empty line for easier reading
-    Console.WriteLine();
-
-
-
-  // Display the file contents by using a foreach loop.
-  foreach (string line in lines)
-    {
-    Console.WriteLine(line);
+            double summa = tal1 + tal2;
+            double produkt = tal1 * tal2;
+            Console.WriteLine("Summan av talen är " + summa);
+            Console.WriteLine("Produkten av talen är " + produkt);
+            Console.ReadKey();
+        }
     }
-   
-  }
 }
