@@ -6,7 +6,7 @@ namespace exercise_109
   {
     public static void Main(string[] args)
     {
-      PaymentCard card = new PaymentCard(100);
+      PaymentCard card = new PaymentCard(150);
       Console.WriteLine(card);
 
       card.AddMoney(49.99);
