@@ -5,7 +5,7 @@ namespace exercise_106
     private double balance;
 
     public PaymentCard(double openingBalance)
-    {
+   {
       // write code here
       this.balance = openingBalance - this.balance;
     }
