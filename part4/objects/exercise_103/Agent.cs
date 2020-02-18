@@ -7,10 +7,10 @@ namespace exercise_103 {
       this.firstName = firstName;
       this.lastName = lastName;
     }
-
-    public override string ToString() {
+    public override string ToString() 
+    {
       // Should return for example "My name is Bond. James Bond."
-      return "";
+      return "My name is " + lastName + ". " +  firstName + " " + lastName + ".";
     }
   }
 }
