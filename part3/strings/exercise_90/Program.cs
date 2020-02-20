@@ -16,15 +16,16 @@ namespace exercise_90
           {
           break;
           }
+         
           string[] parts = asked.Split(",");
-          if (oldest < Convert.ToInt32(parts[1]));  
+          if (Convert.ToInt32(parts[1]) > oldest);  
         
           {
-         Oldest = Convert.ToInt32(Parts[1]);
+         oldest = Convert.ToInt32(parts[1]);
           }
 
         }
-        Console.WriteLine("Age of the oldest " + oldest );
+        Console.WriteLine("Age of the oldest: " + oldest );
         
     }
     
