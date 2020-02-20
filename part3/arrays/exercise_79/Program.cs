@@ -31,7 +31,7 @@ namespace exercise_79
           break;
         }
       
-      ////if it false//
+      ////seems ok
       }
   
       if (!found)
