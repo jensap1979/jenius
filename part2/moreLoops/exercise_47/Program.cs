@@ -7,7 +7,7 @@ namespace exercise_47
     public static void Main(string[] args)
     {
 
-      // Write your code here:
+      // Write your code:
       Console.WriteLine("Where to?");
       int userEnd = Convert.ToInt32(Console.ReadLine());
 
