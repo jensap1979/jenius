@@ -12,7 +12,7 @@ namespace exercise_80
       int sum = SumOfNumbersInArray(numbers);
       Console.WriteLine(sum);
 
-    }
+    } /////ok
 
         public static int SumOfNumbersInArray(int[] numbers)
         {

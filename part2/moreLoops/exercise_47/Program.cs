@@ -7,20 +7,19 @@ namespace exercise_47
     public static void Main(string[] args)
     {
 
-      // Write your code here:
-       Console.WriteLine("Where to?");
-      int num1 = Convert.ToInt32(Console.ReadLine());
+      // Write your code:
+      Console.WriteLine("Where to?");
+      int userEnd = Convert.ToInt32(Console.ReadLine());
 
       Console.WriteLine("Where from?");
-      int num2 = Convert.ToInt32(Console.ReadLine());
+      int userStart = Convert.ToInt32(Console.ReadLine());
 
-      int value = num2;
+      int counter = userStart;
 
-      while (value <= num2)
+      while (counter <= userEnd) 
       {
-        Console.WriteLine(value);
-        value++;
-        
+        Console.WriteLine(counter);
+        counter++;
       }
       
     }

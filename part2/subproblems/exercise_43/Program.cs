@@ -8,7 +8,7 @@ namespace exercise_43
     {
       // Write your code here:
       
-       {
+       
       int num = Convert.ToInt32(Console.ReadLine());
       if (num < 0)
       {

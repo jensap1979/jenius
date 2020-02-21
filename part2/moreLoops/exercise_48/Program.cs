@@ -16,20 +16,20 @@ namespace exercise_48
         
         int num = Convert.ToInt32(Console.ReadLine());
         if (num ==-1)
-      {
+        {
         Console.WriteLine("thx! Bye!");
         break;
-      }
-      else
-      {
+        }
+        else
+        {
         sum += num;
         num++;
         
-      }
+       }
       
       }
       Console.WriteLine(" sum: " + sum);
  
-    }
+    
   }
 }
