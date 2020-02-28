@@ -2,9 +2,9 @@ namespace exercise_119
 {
     public class Clock
     {
-    private ClockHand hours;
-    private ClockHand minutes;
-    private ClockHand seconds;
+    public ClockHand hours;
+    public ClockHand minutes;
+    public ClockHand seconds;
 
     public Clock()
         {
