@@ -48,7 +48,7 @@ namespace exercise_134
         PrintStars(stars);
         Console.WriteLine();
 
-        grade = grade - 1;
+        grade = grade -1;
       }
     }
     public static void PrintStars(int stars)
