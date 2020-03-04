@@ -1,36 +1,28 @@
 namespace exercise_119
 {
-    public class Clock
+    public class Timer
     {
-    public ClockHand hours;
-    public ClockHand minutes;
-    public ClockHand seconds;
+        private ClockHand seconds;
+        private ClockHand hundredths ;
 
-    public Clock()
+        public Timer()
         {
-            this.hours = new ClockHand(24);
-            this.minutes = new ClockHand(60);
-            this.seconds = new ClockHand(60);
-        }
+            this.hundredths = new ClockHand(100);
+            this.seconds = new ClockHand(60);        }
 
         public void Advance()
         {
-            this.seconds.Advance();
+            this.hundredths.Advance();
 
-            if (this.seconds.value == 0)
+            if (this.hundredths.value == 0)
             {
-            this.minutes.Advance();
-
-            if (this.minutes.value == 0)
-            {
-                this.hours.Advance();
-            }
+                this.seconds.Advance();
             }
         }
 
         public override string ToString()
         {
-            return hours + ":" + minutes + ":" + seconds;
+            return seconds + ":" + hundredths;
         }
     }
 }
