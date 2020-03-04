@@ -9,6 +9,7 @@ namespace exercise_114
         {
             List<Person> persons = new List<Person>();
 
+<<<<<<< HEAD
             // a person object can be created first
             Person john = new Person("John");
             // and then added to the list
@@ -22,6 +23,22 @@ namespace exercise_114
             {
                 Console.WriteLine(person);
             }
+=======
+          // start counter
+          int counter = 0;
+            while (true)
+            {
+                string line = Console.ReadLine();
+
+                if (line == "end")
+                {
+                    break;
+                }
+                counter++;
+            }
+            // print number of lines
+            Console.WriteLine(counter);
+>>>>>>> 630d9ad598717df5d4c9c0638f077767bcf5a587
         }
     }
 }

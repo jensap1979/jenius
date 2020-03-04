@@ -4,7 +4,7 @@ namespace exercise_122
 {
   class Program
   {
-    public static void Main(string[] args)
+    public static void Main(string[] args) //
     {
       // You can test your code here.
       Product tapeMeasure = new Product("Tape measure");

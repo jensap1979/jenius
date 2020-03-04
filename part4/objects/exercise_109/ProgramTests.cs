@@ -55,7 +55,7 @@ namespace ProgramTests
     }
 
     [Test]
-    public void TestEatLunchNotEnoughMoney()
+    public void EatLunchNotEnoughMoney()
     {
       {
         PaymentCard card = new PaymentCard(8);

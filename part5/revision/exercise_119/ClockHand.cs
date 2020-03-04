@@ -1,6 +1,6 @@
 namespace exercise_119
 {
-  public class ClockHand
+  public class ClockHand //
   {
     public int value { get; set; }
     public int limit { get; set; }
@@ -27,8 +27,10 @@ namespace exercise_119
         {
           return "0" + this.value;
         }
-
-        return "" + this.value;
-      }
+        else
+        {
+         return "" + this.value;
+        }
+      }  
   }
 }
