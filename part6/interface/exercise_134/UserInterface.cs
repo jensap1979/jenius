@@ -1,6 +1,7 @@
 namespace exercise_134
 {
   using System;
+  using System.Collections.Generic;
   public class UserInterface
   {
     private GradeRegister register;
