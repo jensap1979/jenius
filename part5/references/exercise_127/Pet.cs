@@ -12,5 +12,13 @@ namespace exercise_127
       this.name = name;
       this.breed = breed;
     }
+    public override string ToString()
+        {
+          return this.name + (this.breed);
+        }
+    
+
+
   }
+
 }

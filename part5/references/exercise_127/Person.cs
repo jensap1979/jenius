@@ -12,18 +12,20 @@ namespace exercise_127
       this.pet = pet;
     }
 
-    public Person(string name) : this(name, new Pet("Toothless", "dragon"))
+    public Person(string name) : this(name, new Pet("Toothless", " (dragon)"))
     {
     }
 
-    public Person() : this("Lilo", new Pet("Stitch", "blue alien"))
+    public Person() : this("Lilo", new Pet("Stitch", " (blue alien)"))
     {
     }
+
+  
 
     public override string ToString()
     {
       // MODIFY THE FOLLOWING:
-      return this.name;
+      return this.name + ", has a friend called " + pet ;
       
     }
 
