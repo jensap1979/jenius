@@ -7,22 +7,25 @@ namespace exercise_131
     private string name;
 
     public Item(string identifier, string name)
-    {
-      this.identifier = identifier;
-      this.name = name;
-    }
-    public override string ToString()
-    {
-      return this.identifier + ": " + this.name;
-    }
+        if (this == compared)
+      {
+          return true;
+      }
 
-    public override bool Equals(object compared)
-    {
+      if (compared == null) || !this.GetType().Equals(compared.GetType()
+      {
+          return false;
+      }
 
-      //compare with Item.identifier
+      Item comparedItem = (Item)compared;
+
+      if (this.identifier == comparedItem.identifier)
+      {
+          return true;
+      }
 
       return false;
-      }
+
     }
 
   }
