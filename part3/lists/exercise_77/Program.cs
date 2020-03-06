@@ -8,21 +8,25 @@ namespace exercise_77
     public static void Main(string[] args)
     {
       // You can try your method here if you want
-      
-      public static void RemoveLast(List<string> strings)
       List<string> strings = new List<string>();
+      
 
-strings.Add("First");
-strings.Add("Second");
-strings.Add("Third");
+      strings.Add("First");
+      strings.Add("Second");
+      strings.Add("Third");
 
-// Remember, this is how you print all the items in a list
-strings.ForEach(Console.WriteLine);
+      // Remember, this is how you print all the items in a list
+      strings.ForEach(Console.WriteLine);
+      }
+      public static void RemoveLast(List<string> strings)
+      
+      int lastValue = strings.Count -1;
 
-RemoveLast(strings);
-RemoveLast(strings);
+  
+      strings.RemoveAt (lastValue);
 
-strings.ForEach(Console.WriteLine)
+      
+     
     }
 
   }
