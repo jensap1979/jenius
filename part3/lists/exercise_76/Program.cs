@@ -25,7 +25,7 @@ namespace exercise_76
       {
       sum += numbers[i];
       }  
-      return +sum 
+      return + sum;
      
 
     }
