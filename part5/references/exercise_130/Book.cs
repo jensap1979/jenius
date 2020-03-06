@@ -18,8 +18,8 @@ namespace exercise_130
     // BEGIN SOLUTION
     public override bool Equals(object compared)
     {
-
-      return false;
+      if
+      
     }
     // END SOLUTION
   }

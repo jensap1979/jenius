@@ -57,15 +57,37 @@ public class GradeRegister
     return grade;
   }
 
-  public double AverageOfGrades()
-  {
-    // Hint! You don't need to round the -1, but you do need it for all the other results...
-    return Math.Round(-1.0, 2 );
-  }
+      public double AverageOfGrades()
+      if (this.grades.Count == 0)
+      {
+        return -1;
+      }
+      internal sum = 0;
+      foreach (int givenGrade in grades)
+      {
+        sum += givenGrade;
+      }
+      double average = (double)sum / AmountOfGrades;
+      
+        // Hint! You don't need to round the -1, but you do need it for all the other results...
+      return Math.Round(average, 2 );
+      
 
-  public double AverageOfPoints()
-  {
 
-    return Math.Round(-1.0, 2);
-  }
+
+
+    public double AverageOfPoints()
+    {
+        if (this.scores.Count == 0)
+        {
+            return Math.Round(-1.0, 2);
+        }
+
+        double sum = 0.00;
+        foreach (double score in this.scores)
+        {
+            sum += score;
+        }
+        return Math.Round(sum / this.scores.Count, 2);
+    }
 }
