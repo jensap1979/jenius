@@ -16,7 +16,7 @@ namespace exercise_77 {
       RemoveLast (strings);
       RemoveLast (strings);
 
-      strings.ForEach (Console.WriteLine);
+      strings.ForEach (Console.WriteLine)
     }
 
     // method
